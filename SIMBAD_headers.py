@@ -144,16 +144,18 @@ def file_path(path):
             print(f"{fits_file} skipped because of {e}")
 
 
-
+# This is where to link a path
 input_path = r"C:\Users\lmf53\Mount_John"
 file_path(input_path)
 
-
+# This is the section for if you want to link an individual file
 # fits_file = r"C:\Users\lmf53\OneDrive - University of Canterbury\2026\Twin_Eyes\Reduction\20260106\BC_CMa-0002_i_30.fit"
 # object_name, obs_time, filter_used = fits_scraper(fits_file)
 # header_info = scrape_simbad(object_name=object_name, obs_time=obs_time, filter_used=filter_used)
 # update_fits_header(fits_file, header_info)
 
+# Shows the new header
 # # for categories, values in header_info.items():
 # #     print(f"{categories}={values}")
+
 
